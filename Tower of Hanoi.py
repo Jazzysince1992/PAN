@@ -7,5 +7,5 @@ def tower_of_hanoi(n, source, auxiliary, destination):
     tower_of_hanoi(n - 1, auxiliary, source, destination)
 
 # Example usage
-num_disks = 3
+num_disks = 5
 tower_of_hanoi(num_disks, 'A', 'B', 'C')
