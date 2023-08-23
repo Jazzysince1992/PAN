@@ -2,16 +2,18 @@ class Stack:
     def __init__(self):
         self.items = []
 
+#Pushes the item in items
     def push(self, item):
         self.items.append(item)
 
+# Pop the item from items
     def pop(self):
         if not self.is_empty():
             return self.items.pop()
         else:
             print("Stack is empty. Cannot pop.")
             return None
-
+# Is empty or not 
     def is_empty(self):
         return len(self.items) == 0
 
