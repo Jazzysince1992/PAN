@@ -27,3 +27,14 @@ print(names[0])
 print(names[1])
 print(names[2])
 print(names[3])
+print("For loop is used below")
+names = ["Jazzy","Saurabh","Elon","Musk"]
+i=1
+for n in names:
+    print(i)
+    print(n)
+    i+=1
+
+numbers = [10,21,7,5,3,2,4]
+for number in numbers:
+    print(number*10)
