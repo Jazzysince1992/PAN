@@ -38,3 +38,31 @@ for n in names:
 numbers = [10,21,7,5,3,2,4]
 for number in numbers:
     print(number*10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
