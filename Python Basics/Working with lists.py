@@ -59,3 +59,4 @@ print("My friends favorite pizzas are:")
 for pizza in fav_Friends_pizzas:
     print(pizza)
 print("Hello")
+print("How are you?")
