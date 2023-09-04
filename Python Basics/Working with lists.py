@@ -46,17 +46,50 @@ print("::::::::::::::::::::::::::::::::::::::")
 # Print the message
 # My favorite pizzas are:, and then use a for loop to print the first list. 
 # Print the message, My friend’s favorite pizzas are:, and then use a for loop to print the second list. Make sure each new pizza is stored in the appropriate list.
-fav_pizzas = ["Chicken Trio","Pineapple","Pepproni"]
-fav_Friends_pizzas = fav_pizzas[:]
-fav_pizzas.append("Seafood")
-fav_Friends_pizzas.append("Double Cheese")
+# fav_pizzas = ["Chicken Trio","Pineapple","Pepproni"]
+# fav_Friends_pizzas = fav_pizzas[:]
+# fav_pizzas.append("Seafood")
+# fav_Friends_pizzas.append("Double Cheese")
 
-print("My favorite pizzas are:")
-for pizza in fav_pizzas:
-    print(pizza)
-print("-----------------------------------------")
-print("My friends favorite pizzas are:")
-for pizza in fav_Friends_pizzas:
-    print(pizza)
-print("Hello")
-print("How are you?")
+# print("My favorite pizzas are:")
+# for pizza in fav_pizzas:
+#     print(pizza)
+# print("-----------------------------------------")
+# print("My friends favorite pizzas are:")
+# for pizza in fav_Friends_pizzas:
+#     print(pizza)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#  A buffet-style restaurant offers only five basic foods. Think of five simple foods, and store them in a tuple.
+# •	 Use a for loop to print each food the restaurant offers.
+# for food in buffet:
+#     print(food)
+# •	 Try to modify one of the items, and make sure that Python rejects the change.
+# •	 The restaurant changes its menu, replacing two of the items with different foods. Add a block of code that rewrites the tuple, and then use a for loop to print each of the items on the revised menu.
+
+buffet = ("Fried Rice","Banana","KFC")
+for food in buffet:
+    print(food)
+
+print("After Changing the tuple:::::::::::::::::::::::::::" )
+buffet = ("Fried Rice","Banana","KFC", "Mc Donalds","Pizza")
+for food in buffet:
+    print(food)
